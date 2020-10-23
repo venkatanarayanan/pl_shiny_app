@@ -1,2 +1,6 @@
-ui <- navbarPage("Navbar Example")
+ui <- navbarPage("Scouting app",
+                 tabPanel("About",
+                          textOutput("aboutText")),
+                 navbarMenu("Features",
+                            tabPanel("Player Comparison")))
 
